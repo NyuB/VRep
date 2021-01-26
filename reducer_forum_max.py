@@ -3,7 +3,7 @@ import csv
 import sys
 
 reader = csv.reader(sys.stdin, delimiter='\t')
-writer = csv.writer(sys.stdout, delimiter='\t', quotechar='"', quoting=csv.QHOTE_ALL)
+writer = csv.writer(sys.stdout, delimiter='\t', quotechar='"', quoting=csv.QUOTE_ALL)
 
 a = []
 
