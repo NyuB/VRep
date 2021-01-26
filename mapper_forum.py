@@ -23,7 +23,7 @@ def isPhrase(msg):
 		return True
 	elif not(msg[-1] in P):
 		return False
-
+lines = []
 for line in reader:
 	msg = line[4]
 	if isPhrase(msg):
